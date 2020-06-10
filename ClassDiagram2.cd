@@ -1,0 +1,2814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityEngine.AndroidJavaException" Collapsed="true">
+    <Position X="111.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AndroidJavaProxy" Collapsed="true">
+    <Position X="113.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AndroidJavaObject" Collapsed="true">
+    <Position X="3.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.AndroidJavaClass" Collapsed="true">
+    <Position X="3.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AndroidJNIHelper" Collapsed="true">
+    <Position X="116.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AndroidJNI" Collapsed="true">
+    <Position X="115" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Animator" Collapsed="true">
+    <Position X="127.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SharedBetweenAnimatorsAttribute" Collapsed="true">
+    <Position X="122" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.StateMachineBehaviour" Collapsed="true">
+    <Position X="106.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimationClip" Collapsed="true">
+    <Position X="0.5" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimatorControllerParameter" Collapsed="true">
+    <Position X="129" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimationClipPair" Collapsed="true">
+    <Position X="120.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimatorOverrideController" Collapsed="true">
+    <Position X="22.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimatorUtility" Collapsed="true">
+    <Position X="130.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Avatar" Collapsed="true">
+    <Position X="106.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AvatarBuilder" Collapsed="true">
+    <Position X="108" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AvatarMask" Collapsed="true">
+    <Position X="109.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HumanPoseHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.HumanTrait" Collapsed="true">
+    <Position X="118.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Motion" Collapsed="true">
+    <Position X="0.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RuntimeAnimatorController" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimationEvent" Collapsed="true">
+    <Position X="123.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Animation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.AnimationState" Collapsed="true">
+    <Position X="125.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AssetBundle" Collapsed="true">
+    <Position X="108" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AssetBundleCreateRequest" Collapsed="true">
+    <Position X="109.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AssetBundleManifest" Collapsed="true">
+    <Position X="111.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AssetBundleRecompressOperation" Collapsed="true">
+    <Position X="113.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AssetBundleRequest" Collapsed="true">
+    <Position X="115" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioSettings" Collapsed="true">
+    <Position X="104.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioSource" Collapsed="true">
+    <Position X="2.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioLowPassFilter" Collapsed="true">
+    <Position X="125.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioHighPassFilter" Collapsed="true">
+    <Position X="123.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioReverbFilter" Collapsed="true">
+    <Position X="129" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioClip" Collapsed="true">
+    <Position X="118.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioBehaviour" Collapsed="true">
+    <Position X="1.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioListener" Collapsed="true">
+    <Position X="0.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioReverbZone" Collapsed="true">
+    <Position X="130.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioDistortionFilter" Collapsed="true">
+    <Position X="120.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioEchoFilter" Collapsed="true">
+    <Position X="122" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioChorusFilter" Collapsed="true">
+    <Position X="116.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Microphone" Collapsed="true">
+    <Position X="129" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AudioRenderer" Collapsed="true">
+    <Position X="127.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MovieTexture" Collapsed="true">
+    <Position X="106.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WebCamTexture" Collapsed="true">
+    <Position X="120.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Cloth" Collapsed="true">
+    <Position X="122" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ClusterInput" Collapsed="true">
+    <Position X="123.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ClusterNetwork" Collapsed="true">
+    <Position X="125.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnimationCurve" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="122" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.Application" Collapsed="true">
+    <Position X="104.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Caching" Collapsed="true">
+    <Position X="115" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Camera" Collapsed="true">
+    <Position X="84" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CullingGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.FlareLayer" Collapsed="true">
+    <Position X="86.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ReflectionProbe" Collapsed="true">
+    <Position X="90.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CrashReport" Collapsed="true">
+    <Position X="113.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Debug" Collapsed="true">
+    <Position X="122" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.EventProvider" Collapsed="true">
+    <Position X="106.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GeometryUtility" Collapsed="true">
+    <Position X="120.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RectOffset" Collapsed="true">
+    <Position X="115" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.DynamicGI" Collapsed="true">
+    <Position X="130.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Gizmos" Collapsed="true">
+    <Position X="122" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BeforeRenderOrderAttribute" Collapsed="true">
+    <Position X="111.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BillboardAsset" Collapsed="true">
+    <Position X="41.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BillboardRenderer" Collapsed="true">
+    <Position X="59.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Display" Collapsed="true">
+    <Position X="129" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SleepTimeout" Collapsed="true">
+    <Position X="123.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Screen" Collapsed="true">
+    <Position X="109.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Graphics" Collapsed="true">
+    <Position X="127.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GL" Collapsed="true">
+    <Position X="123.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ScalableBufferManager" Collapsed="true">
+    <Position X="108" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.FrameTimingManager" Collapsed="true">
+    <Position X="118.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LightmapData" Collapsed="true">
+    <Position X="115" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LightmapSettings" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LightProbes" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HDROutputSettings" Collapsed="true">
+    <Position X="109.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.QualitySettings" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RendererExtensions" Collapsed="true">
+    <Position X="123.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ImageEffectTransformsToLDR" Collapsed="true">
+    <Position X="127.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ImageEffectAllowedInSceneView" Collapsed="true">
+    <Position X="123.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ImageEffectOpaque" Collapsed="true">
+    <Position X="125.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ImageEffectAfterScale" Collapsed="true">
+    <Position X="122" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ImageEffectUsesCommandBuffer" Collapsed="true">
+    <Position X="129" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Mesh" Collapsed="true">
+    <Position X="43.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Renderer" Collapsed="true">
+    <Position X="60.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Projector" Collapsed="true">
+    <Position X="81.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Shader" Collapsed="true">
+    <Position X="45.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TrailRenderer" Collapsed="true">
+    <Position X="61.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LineRenderer" Collapsed="true">
+    <Position X="63.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MaterialPropertyBlock" Collapsed="true">
+    <Position X="127.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RenderSettings" Collapsed="true">
+    <Position X="97.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Material" Collapsed="true">
+    <Position X="99.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GraphicsBuffer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="129" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.OcclusionPortal" Collapsed="true">
+    <Position X="95.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.OcclusionArea" Collapsed="true">
+    <Position X="48" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Flare" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LensFlare" Collapsed="true">
+    <Position X="70.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Light" Collapsed="true">
+    <Position X="72.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Skybox" Collapsed="true">
+    <Position X="77.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MeshFilter" Collapsed="true">
+    <Position X="50.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LightProbeProxyVolume" Collapsed="true">
+    <Position X="88.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SkinnedMeshRenderer" Collapsed="true">
+    <Position X="54.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MeshRenderer" Collapsed="true">
+    <Position X="57" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LightProbeGroup" Collapsed="true">
+    <Position X="75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LineUtility" Collapsed="true">
+    <Position X="116.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LODGroup" Collapsed="true">
+    <Position X="52.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Texture" Collapsed="true">
+    <Position X="32.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Texture2D" Collapsed="true">
+    <Position X="25.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Cubemap" Collapsed="true">
+    <Position X="27.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Texture3D" Collapsed="true">
+    <Position X="30" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Texture2DArray" Collapsed="true">
+    <Position X="32.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CubemapArray" Collapsed="true">
+    <Position X="34.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SparseTexture" Collapsed="true">
+    <Position X="36.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RenderTexture" Collapsed="true">
+    <Position X="39" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CustomRenderTexture" Collapsed="true">
+    <Position X="39" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Handheld" Collapsed="true">
+    <Position X="104.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HashUtilities" Collapsed="true">
+    <Position X="108" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HashUnsafeUtilities" Collapsed="true">
+    <Position X="106.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Cursor" Collapsed="true">
+    <Position X="118.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.iPhoneSettings" Collapsed="true">
+    <Position X="109.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.iPhoneUtils" Collapsed="true">
+    <Position X="111.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.iPhoneKeyboard" Collapsed="true">
+    <Position X="108" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.iPhoneInput" Collapsed="true">
+    <Position X="106.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.iPhone" Collapsed="true">
+    <Position X="104.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LocalNotification" Collapsed="true">
+    <Position X="120.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RemoteNotification" Collapsed="true">
+    <Position X="120.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.NotificationServices" Collapsed="true">
+    <Position X="109.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ADBannerView" Collapsed="true">
+    <Position X="104.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ADInterstitialAd" Collapsed="true">
+    <Position X="108" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Logger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="123.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.ColorUtility" Collapsed="true">
+    <Position X="130.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Gradient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.NetworkView" Collapsed="true">
+    <Position X="79.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Network" Collapsed="true">
+    <Position X="108" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BitStream" Collapsed="true">
+    <Position X="113.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RPC" Collapsed="true">
+    <Position X="104.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HostData" Collapsed="true">
+    <Position X="115" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MasterServer" Collapsed="true">
+    <Position X="125.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Ping" Collapsed="true">
+    <Position X="129" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PlayerPrefsException" Collapsed="true">
+    <Position X="104.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PlayerPrefs" Collapsed="true">
+    <Position X="130.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PropertyAttribute" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ContextMenuItemAttribute" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.InspectorNameAttribute" Collapsed="true">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TooltipAttribute" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SpaceAttribute" Collapsed="true">
+    <Position X="15.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HeaderAttribute" Collapsed="true">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RangeAttribute" Collapsed="true">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MinAttribute" Collapsed="true">
+    <Position X="22" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MultilineAttribute" Collapsed="true">
+    <Position X="24.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TextAreaAttribute" Collapsed="true">
+    <Position X="26.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ColorUsageAttribute" Collapsed="true">
+    <Position X="1.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GradientUsageAttribute" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.DelayedAttribute" Collapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Random" Collapsed="true">
+    <Position X="113.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ResourceRequest" Collapsed="true">
+    <Position X="12.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Resources" Collapsed="true">
+    <Position X="127.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AsyncOperation" Collapsed="true">
+    <Position X="12.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.DisallowMultipleComponent" Collapsed="true">
+    <Position X="127.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RequireComponent" Collapsed="true">
+    <Position X="125.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AddComponentMenu" Collapsed="true">
+    <Position X="106.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CreateAssetMenuAttribute" Collapsed="true">
+    <Position X="115" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ContextMenu" Collapsed="true">
+    <Position X="109.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ExecuteInEditMode" Collapsed="true">
+    <Position X="113.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ExecuteAlways" Collapsed="true">
+    <Position X="111.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HideInInspector" Collapsed="true">
+    <Position X="113.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HelpURLAttribute" Collapsed="true">
+    <Position X="111.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.DefaultExecutionOrder" Collapsed="true">
+    <Position X="123.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AssemblyIsEditorAssembly" Collapsed="true">
+    <Position X="106.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ExcludeFromPresetAttribute" Collapsed="true">
+    <Position X="109.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Behaviour" Collapsed="true">
+    <Position X="79.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Component" Collapsed="true">
+    <Position X="71.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Coroutine" Collapsed="true">
+    <Position X="21.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CustomYieldInstruction" Collapsed="true">
+    <Position X="20" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.ExcludeFromObjectFactoryAttribute" Collapsed="true">
+    <Position X="108" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GameObject" Collapsed="true">
+    <Position X="102" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="57.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RuntimeInitializeOnLoadMethodAttribute" Collapsed="true">
+    <Position X="106.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ScriptableObject" Collapsed="true">
+    <Position X="55" Y="27.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SelectionBaseAttribute" Collapsed="true">
+    <Position X="115" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.StackTraceUtility" Collapsed="true">
+    <Position X="104.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.UnityException" Collapsed="true">
+    <Position X="118.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MissingComponentException" Collapsed="true">
+    <Position X="130.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.UnassignedReferenceException" Collapsed="true">
+    <Position X="113.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MissingReferenceException" Collapsed="true">
+    <Position X="104.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TextAsset" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TrackedReference" Collapsed="true">
+    <Position X="104.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.UnityAPICompatibilityVersionAttribute" Collapsed="true">
+    <Position X="115" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Object" Collapsed="true">
+    <Position X="53.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WaitForEndOfFrame" Collapsed="true">
+    <Position X="15" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WaitForFixedUpdate" Collapsed="true">
+    <Position X="17.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WaitForSeconds" Collapsed="true">
+    <Position X="19.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WaitForSecondsRealtime" Collapsed="true">
+    <Position X="17.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WaitUntil" Collapsed="true">
+    <Position X="20" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WaitWhile" Collapsed="true">
+    <Position X="22.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.YieldInstruction" Collapsed="true">
+    <Position X="17.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Security" Collapsed="true">
+    <Position X="113.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Types" Collapsed="true">
+    <Position X="109.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SerializePrivateVariables" Collapsed="true">
+    <Position X="118.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SerializeField" Collapsed="true">
+    <Position X="116.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SerializeReference" Collapsed="true">
+    <Position X="120.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PreferBinarySerialization" Collapsed="true">
+    <Position X="106.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ComputeBuffer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="106.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.ShaderVariantCollection" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ComputeShader" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Snapping" Collapsed="true">
+    <Position X="125.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.StaticBatchingUtility" Collapsed="true">
+    <Position X="108" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SystemInfo" Collapsed="true">
+    <Position X="113.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Time" Collapsed="true">
+    <Position X="129" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TouchScreenKeyboard" Collapsed="true">
+    <Position X="130.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.UnityEventQueueSystem" Collapsed="true">
+    <Position X="116.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RectTransform" Collapsed="true">
+    <Position X="93" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Transform" Collapsed="true">
+    <Position X="93" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.SpriteRenderer" Collapsed="true">
+    <Position X="66" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Sprite" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Social" Collapsed="true">
+    <Position X="127.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Grid" Collapsed="true">
+    <Position X="11.5" Y="23" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GridLayout" Collapsed="true">
+    <Position X="11.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Event" Collapsed="true">
+    <Position X="104.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUI" Collapsed="true">
+    <Position X="104.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUIContent" Collapsed="true">
+    <Position X="106.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUIElement" Collapsed="true">
+    <Position X="108" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUILayer" Collapsed="true">
+    <Position X="109.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUILayout" Collapsed="true">
+    <Position X="111.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUILayoutOption" Collapsed="true">
+    <Position X="113.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUILayoutUtility" Collapsed="true">
+    <Position X="115" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUISettings" Collapsed="true">
+    <Position X="116.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUISkin" Collapsed="true">
+    <Position X="118.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUIStyleState" Collapsed="true">
+    <Position X="122" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUIStyle" Collapsed="true">
+    <Position X="120.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUITargetAttribute" Collapsed="true">
+    <Position X="123.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUITexture" Collapsed="true">
+    <Position X="127.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUIUtility" Collapsed="true">
+    <Position X="129" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ExitGUIException" Collapsed="true">
+    <Position X="115" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TextEditor" Collapsed="true">
+    <Position X="123.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ImageConversion" Collapsed="true">
+    <Position X="120.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AndroidInput" Collapsed="true">
+    <Position X="109.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Gyroscope" Collapsed="true">
+    <Position X="130.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LocationService" Collapsed="true">
+    <Position X="122" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Compass" Collapsed="true">
+    <Position X="104.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Input" Collapsed="true">
+    <Position X="130.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.JsonUtility" Collapsed="true">
+    <Position X="113.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.LocalizationAsset" Collapsed="true">
+    <Position X="118.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ParticleSystem" Collapsed="true">
+    <Position X="113.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ParticlePhysicsExtensions" Collapsed="true">
+    <Position X="111.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ParticleSystemRenderer" Collapsed="true">
+    <Position X="116.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ParticleSystemForceField" Collapsed="true">
+    <Position X="115" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ControllerColliderHit" Collapsed="true">
+    <Position X="111.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Collision" Collapsed="true">
+    <Position X="127.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PhysicMaterial" Collapsed="true">
+    <Position X="118.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Rigidbody" Collapsed="true">
+    <Position X="129" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Collider" Collapsed="true">
+    <Position X="5.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CharacterController" Collapsed="true">
+    <Position X="0.75" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.MeshCollider" Collapsed="true">
+    <Position X="3" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CapsuleCollider" Collapsed="true">
+    <Position X="5.25" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BoxCollider" Collapsed="true">
+    <Position X="7.5" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SphereCollider" Collapsed="true">
+    <Position X="9.75" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ConstantForce" Collapsed="true">
+    <Position X="108" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Joint" Collapsed="true">
+    <Position X="17.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HingeJoint" Collapsed="true">
+    <Position X="12.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SpringJoint" Collapsed="true">
+    <Position X="15" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.FixedJoint" Collapsed="true">
+    <Position X="17.25" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CharacterJoint" Collapsed="true">
+    <Position X="19.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ConfigurableJoint" Collapsed="true">
+    <Position X="21.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PhysicsSceneExtensions" Collapsed="true">
+    <Position X="125.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Physics" Collapsed="true">
+    <Position X="120.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PhysicsSceneExtensions2D" Collapsed="true">
+    <Position X="127.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Physics2D" Collapsed="true">
+    <Position X="122" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Collision2D" Collapsed="true">
+    <Position X="129" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Rigidbody2D" Collapsed="true">
+    <Position X="130.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Collider2D" Collapsed="true">
+    <Position X="6.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CircleCollider2D" Collapsed="true">
+    <Position X="1" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CapsuleCollider2D" Collapsed="true">
+    <Position X="3.25" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.EdgeCollider2D" Collapsed="true">
+    <Position X="5.5" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BoxCollider2D" Collapsed="true">
+    <Position X="7.75" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PolygonCollider2D" Collapsed="true">
+    <Position X="10" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CompositeCollider2D" Collapsed="true">
+    <Position X="12.25" Y="13" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Joint2D" Collapsed="true">
+    <Position X="10.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AnchoredJoint2D" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SpringJoint2D" Collapsed="true">
+    <Position X="1.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.DistanceJoint2D" Collapsed="true">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.FrictionJoint2D" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.HingeJoint2D" Collapsed="true">
+    <Position X="8" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RelativeJoint2D" Collapsed="true">
+    <Position X="17" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SliderJoint2D" Collapsed="true">
+    <Position X="10.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TargetJoint2D" Collapsed="true">
+    <Position X="19.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.FixedJoint2D" Collapsed="true">
+    <Position X="12.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WheelJoint2D" Collapsed="true">
+    <Position X="14.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Effector2D" Collapsed="true">
+    <Position X="5.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.AreaEffector2D" Collapsed="true">
+    <Position X="0.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.BuoyancyEffector2D" Collapsed="true">
+    <Position X="3" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PointEffector2D" Collapsed="true">
+    <Position X="5.25" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PlatformEffector2D" Collapsed="true">
+    <Position X="7.5" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SurfaceEffector2D" Collapsed="true">
+    <Position X="9.75" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PhysicsUpdateBehaviour2D" Collapsed="true">
+    <Position X="18.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ConstantForce2D" Collapsed="true">
+    <Position X="18.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.PhysicsMaterial2D" Collapsed="true">
+    <Position X="123.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ScreenCapture" Collapsed="true">
+    <Position X="111.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SpriteMask" Collapsed="true">
+    <Position X="130.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.StreamingController" Collapsed="true">
+    <Position X="109.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ProceduralMaterial" Collapsed="true">
+    <Position X="108" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ProceduralPropertyDescription" Collapsed="true">
+    <Position X="109.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ProceduralTexture" Collapsed="true">
+    <Position X="111.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.IntegratedSubsystemDescriptor" Collapsed="true">
+    <Position X="15.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.SubsystemDescriptor" Collapsed="true">
+    <Position X="8.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.IntegratedSubsystemDescriptor&lt;TSubsystem&gt;" Collapsed="true">
+    <Position X="15.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SubsystemDescriptor&lt;TSubsystem&gt;" Collapsed="true">
+    <Position X="8.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SubsystemManager" Collapsed="true">
+    <Position X="111.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.IntegratedSubsystem" Collapsed="true">
+    <Position X="5.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.IntegratedSubsystem&lt;TSubsystemDescriptor&gt;" Collapsed="true">
+    <Position X="5.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Subsystem" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.Subsystem&lt;TSubsystemDescriptor&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Terrain" Collapsed="true">
+    <Position X="115" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TerrainExtensions" Collapsed="true">
+    <Position X="120.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Tree" Collapsed="true">
+    <Position X="106.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TreePrototype" Collapsed="true">
+    <Position X="108" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.DetailPrototype" Collapsed="true">
+    <Position X="125.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.SplatPrototype" Collapsed="true">
+    <Position X="129" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TerrainData" Collapsed="true">
+    <Position X="118.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TerrainLayer" Collapsed="true">
+    <Position X="122" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TerrainCollider" Collapsed="true">
+    <Position X="116.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GUIText" Collapsed="true">
+    <Position X="125.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.TextGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.TextMesh" Collapsed="true">
+    <Position X="127.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Font" Collapsed="true">
+    <Position X="116.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CustomGridBrushAttribute" Collapsed="true">
+    <Position X="120.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.GridBrushBase" Collapsed="true">
+    <Position X="130.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.CanvasGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.CanvasRenderer" Collapsed="true">
+    <Position X="120.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RectTransformUtility" Collapsed="true">
+    <Position X="116.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Canvas" Collapsed="true">
+    <Position X="116.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.UISystemProfilerApi" Collapsed="true">
+    <Position X="111.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RemoteSettings" Collapsed="true">
+    <Position X="122" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.RemoteConfigSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.WWWForm" Collapsed="true">
+    <Position X="129" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WWW" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.WWWAudioExtensions" Collapsed="true">
+    <Position X="127.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WheelCollider" Collapsed="true">
+    <Position X="122" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.WindZone" Collapsed="true">
+    <Position X="123.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="56.75" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="UnityEngine.jvalue" Collapsed="true">
+    <Position X="109.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.AnimationInfo" Collapsed="true">
+    <Position X="106.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.AnimatorClipInfo" Collapsed="true">
+    <Position X="108" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.AnimatorStateInfo" Collapsed="true">
+    <Position X="109.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.AnimatorTransitionInfo" Collapsed="true">
+    <Position X="111.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.MatchTargetWeightMask" Collapsed="true">
+    <Position X="122" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.SkeletonBone" Collapsed="true">
+    <Position X="115" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.HumanLimit" Collapsed="true">
+    <Position X="116.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.HumanBone" Collapsed="true">
+    <Position X="113.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.HumanDescription" Collapsed="true">
+    <Position X="115" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.HumanPose" Collapsed="true">
+    <Position X="118.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.BuildCompression" Collapsed="true">
+    <Position X="125.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.AudioConfiguration" Collapsed="true">
+    <Position X="113.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.WebCamDevice" Collapsed="true">
+    <Position X="115" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ClothSphereColliderPair" Collapsed="true">
+    <Position X="109.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ClothSkinningCoefficient" Collapsed="true">
+    <Position X="108" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.SortingLayer" Collapsed="true">
+    <Position X="120.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Keyframe" Collapsed="true">
+    <Position X="111.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.CachedAssetBundle" Collapsed="true">
+    <Position X="129" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Cache" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="127.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.CacheIndex" Collapsed="true">
+    <Position X="130.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.BoundingSphere" Collapsed="true">
+    <Position X="118.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.CullingGroupEvent" Collapsed="true">
+    <Position X="123.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ExposedPropertyResolver" Collapsed="true">
+    <Position X="129" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ExposedReference&lt;T&gt;" Collapsed="true">
+    <Position X="130.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Bounds" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="120.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.BoundsInt" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="122" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Plane" Collapsed="true">
+    <Position X="113.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Ray" Collapsed="true">
+    <Position X="122" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Ray2D" Collapsed="true">
+    <Position X="123.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Rect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="130.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.RectInt" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="104.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.RenderBuffer" Collapsed="true">
+    <Position X="106.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.FrameTiming" Collapsed="true">
+    <Position X="104.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Resolution" Collapsed="true">
+    <Position X="111.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.RenderTargetSetup" Collapsed="true">
+    <Position X="108" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.LightBakingOutput" Collapsed="true">
+    <Position X="116.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.LOD" Collapsed="true">
+    <Position X="120.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.BoneWeight" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.BoneWeight1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.CombineInstance" Collapsed="true">
+    <Position X="116.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.CustomRenderTextureUpdateZone" Collapsed="true">
+    <Position X="125.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.RenderTextureDescriptor" Collapsed="true">
+    <Position X="109.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Hash128" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.iPhoneTouch" Collapsed="true">
+    <Position X="122" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.iPhoneAccelerationEvent" Collapsed="true">
+    <Position X="120.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Color" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="113.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Color32" Collapsed="true">
+    <Position X="115" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.GradientColorKey" Collapsed="true">
+    <Position X="109.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.GradientAlphaKey" Collapsed="true">
+    <Position X="108" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.FrustumPlanes" Collapsed="true">
+    <Position X="106.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Matrix4x4" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="125.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Vector3" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Quaternion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="118.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Mathf" Collapsed="true">
+    <Position X="123.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Vector2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="106.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Vector2Int" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="108" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Vector3Int" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.Vector4" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="113.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.NetworkPlayer" Collapsed="true">
+    <Position X="129" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.NetworkViewID" Collapsed="true">
+    <Position X="130.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.NetworkMessageInfo" Collapsed="true">
+    <Position X="127.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.PropertyName" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="116.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.LayerMask" Collapsed="true">
+    <Position X="113.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.LazyLoadReference&lt;T&gt;" Collapsed="true">
+    <Position X="115" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.RangeInt" Collapsed="true">
+    <Position X="120.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Pose" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.DrivenRectTransformTracker" Collapsed="true">
+    <Position X="127.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.SecondarySpriteTexture" Collapsed="true">
+    <Position X="113.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.Touch" Collapsed="true">
+    <Position X="125.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.AccelerationEvent" Collapsed="true">
+    <Position X="104.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.LocationInfo" Collapsed="true">
+    <Position X="118.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ParticleCollisionEvent" Collapsed="true">
+    <Position X="104.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.WheelFrictionCurve" Collapsed="true">
+    <Position X="116.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.SoftJointLimit" Collapsed="true">
+    <Position X="116.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.SoftJointLimitSpring" Collapsed="true">
+    <Position X="118.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointDrive" Collapsed="true">
+    <Position X="125.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointMotor" Collapsed="true">
+    <Position X="129" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointSpring" Collapsed="true">
+    <Position X="104.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointLimits" Collapsed="true">
+    <Position X="127.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.RaycastHit" Collapsed="true">
+    <Position X="127.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ContactPoint" Collapsed="true">
+    <Position X="120.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.PhysicsScene" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="109.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.RaycastCommand" Collapsed="true">
+    <Position X="125.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.SpherecastCommand" Collapsed="true">
+    <Position X="122" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.CapsulecastCommand" Collapsed="true">
+    <Position X="104.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.BoxcastCommand" Collapsed="true">
+    <Position X="123.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.PhysicsScene2D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="111.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="UnityEngine.ColliderDistance2D" Collapsed="true">
+    <Position X="111.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ContactFilter2D" Collapsed="true">
+    <Position X="118.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.ContactPoint2D" Collapsed="true">
+    <Position X="122" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointAngleLimits2D" Collapsed="true">
+    <Position X="123.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointTranslationLimits2D" Collapsed="true">
+    <Position X="108" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointMotor2D" Collapsed="true">
+    <Position X="130.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.JointSuspension2D" Collapsed="true">
+    <Position X="106.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.RaycastHit2D" Collapsed="true">
+    <Position X="129" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.PhysicsJobOptions2D" Collapsed="true">
+    <Position X="108" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.TreeInstance" Collapsed="true">
+    <Position X="127.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.PatchExtents" Collapsed="true">
+    <Position X="106.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.TextGenerationSettings" Collapsed="true">
+    <Position X="123.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.CharacterInfo" Collapsed="true">
+    <Position X="106.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.UICharInfo" Collapsed="true">
+    <Position X="129" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.UILineInfo" Collapsed="true">
+    <Position X="130.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.UIVertex" Collapsed="true">
+    <Position X="104.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Struct Name="UnityEngine.WheelHit" Collapsed="true">
+    <Position X="118.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Struct>
+  <Interface Name="UnityEngine.IAnimationClipSource" Collapsed="true">
+    <Position X="104.5" Y="21" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.IExposedPropertyTable" Collapsed="true">
+    <Position X="108" Y="21" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.ILogger" Collapsed="true">
+    <Position X="21.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.ILogHandler" Collapsed="true">
+    <Position X="21.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.ISerializationCallbackReceiver" Collapsed="true">
+    <Position X="109.75" Y="21" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.ISubsystemDescriptor" Collapsed="true">
+    <Position X="113.25" Y="21" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.ISubsystem" Collapsed="true">
+    <Position X="111.5" Y="21" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnityEngine.ICanvasRaycastFilter" Collapsed="true">
+    <Position X="106.25" Y="21" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="UnityEngine.AvatarTarget" Collapsed="true">
+    <Position X="122" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AvatarIKGoal" Collapsed="true">
+    <Position X="116.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AvatarIKHint" Collapsed="true">
+    <Position X="118.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimatorControllerParameterType" Collapsed="true">
+    <Position X="113.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimatorRecorderMode" Collapsed="true">
+    <Position X="116.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.DurationUnit" Collapsed="true">
+    <Position X="123.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimatorCullingMode" Collapsed="true">
+    <Position X="115" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimatorUpdateMode" Collapsed="true">
+    <Position X="118.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.BodyDof" Collapsed="true">
+    <Position X="127.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.HeadDof" Collapsed="true">
+    <Position X="125.5" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LegDof" Collapsed="true">
+    <Position X="104.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ArmDof" Collapsed="true">
+    <Position X="125.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FingerDof" Collapsed="true">
+    <Position X="108" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.HumanPartDof" Collapsed="true">
+    <Position X="104.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.HumanBodyBones" Collapsed="true">
+    <Position X="130.75" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AvatarMaskBodyPart" Collapsed="true">
+    <Position X="120.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.PlayMode" Collapsed="true">
+    <Position X="113.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.QueueMode" Collapsed="true">
+    <Position X="130.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimationBlendMode" Collapsed="true">
+    <Position X="108" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimationPlayMode" Collapsed="true">
+    <Position X="111.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnimationCullingType" Collapsed="true">
+    <Position X="109.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AssetBundleLoadResult" Collapsed="true">
+    <Position X="127.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CompressionType" Collapsed="true">
+    <Position X="122" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CompressionLevel" Collapsed="true">
+    <Position X="120.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioSpeakerMode" Collapsed="true">
+    <Position X="111.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioDataLoadState" Collapsed="true">
+    <Position X="104.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioCompressionFormat" Collapsed="true">
+    <Position X="130.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioClipLoadType" Collapsed="true">
+    <Position X="129" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioVelocityUpdateMode" Collapsed="true">
+    <Position X="115" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FFTWindow" Collapsed="true">
+    <Position X="104.5" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioRolloffMode" Collapsed="true">
+    <Position X="108" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioSourceCurveType" Collapsed="true">
+    <Position X="109.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioReverbPreset" Collapsed="true">
+    <Position X="106.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.WebCamFlags" Collapsed="true">
+    <Position X="120.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.WebCamKind" Collapsed="true">
+    <Position X="122" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ClusterInputType" Collapsed="true">
+    <Position X="109.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SendMessageOptions" Collapsed="true">
+    <Position X="111.5" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.PrimitiveType" Collapsed="true">
+    <Position X="116.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.Space" Collapsed="true">
+    <Position X="125.5" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RuntimePlatform" Collapsed="true">
+    <Position X="106.25" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SystemLanguage" Collapsed="true">
+    <Position X="116.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LogType" Collapsed="true">
+    <Position X="130.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LogOption" Collapsed="true">
+    <Position X="129" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ThreadPriority" Collapsed="true">
+    <Position X="106.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.WeightedMode" Collapsed="true">
+    <Position X="123.75" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.WrapMode" Collapsed="true">
+    <Position X="127.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.StackTraceLogType" Collapsed="true">
+    <Position X="113.25" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NetworkReachability" Collapsed="true">
+    <Position X="122" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.UserAuthorization" Collapsed="true">
+    <Position X="115" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ApplicationInstallMode" Collapsed="true">
+    <Position X="122" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ApplicationSandboxType" Collapsed="true">
+    <Position X="123.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AudioType" Collapsed="true">
+    <Position X="113.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FullScreenMode" Collapsed="true">
+    <Position X="118.5" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ComputeBufferMode" Collapsed="true">
+    <Position X="123.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.D3DHDRDisplayBitDepth" Collapsed="true">
+    <Position X="113.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightmapsModeLegacy" Collapsed="true">
+    <Position X="111.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightShadowCasterMode" Collapsed="true">
+    <Position X="115" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RenderingPath" Collapsed="true">
+    <Position X="108" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TransparencySortMode" Collapsed="true">
+    <Position X="113.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.StereoTargetEyeMask" Collapsed="true">
+    <Position X="115" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CameraType" Collapsed="true">
+    <Position X="106.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ComputeBufferType" Collapsed="true">
+    <Position X="125.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightType" Collapsed="true">
+    <Position X="120.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightShape" Collapsed="true">
+    <Position X="118.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightRenderMode" Collapsed="true">
+    <Position X="113.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightShadows" Collapsed="true">
+    <Position X="116.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FogMode" Collapsed="true">
+    <Position X="111.5" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightmapBakeType" Collapsed="true">
+    <Position X="106.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.MixedLightingMode" Collapsed="true">
+    <Position X="111.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ReceiveGI" Collapsed="true">
+    <Position X="104.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.QualityLevel" Collapsed="true">
+    <Position X="127.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ShadowProjection" Collapsed="true">
+    <Position X="115" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ShadowQuality" Collapsed="true">
+    <Position X="116.75" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ShadowResolution" Collapsed="true">
+    <Position X="118.5" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ShadowmaskMode" Collapsed="true">
+    <Position X="113.25" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CameraClearFlags" Collapsed="true">
+    <Position X="104.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.DepthTextureMode" Collapsed="true">
+    <Position X="115" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TexGenMode" Collapsed="true">
+    <Position X="123.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AnisotropicFiltering" Collapsed="true">
+    <Position X="120.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.BlendWeights" Collapsed="true">
+    <Position X="125.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SkinWeights" Collapsed="true">
+    <Position X="122" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.MeshTopology" Collapsed="true">
+    <Position X="109.75" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SkinQuality" Collapsed="true">
+    <Position X="120.25" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ColorSpace" Collapsed="true">
+    <Position X="118.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ColorGamut" Collapsed="true">
+    <Position X="116.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ScreenOrientation" Collapsed="true">
+    <Position X="109.75" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FilterMode" Collapsed="true">
+    <Position X="106.25" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TextureWrapMode" Collapsed="true">
+    <Position X="104.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NPOTSupport" Collapsed="true">
+    <Position X="125.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TextureFormat" Collapsed="true">
+    <Position X="130.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CubemapFace" Collapsed="true">
+    <Position X="130.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RenderTextureFormat" Collapsed="true">
+    <Position X="113.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.VRTextureUsage" Collapsed="true">
+    <Position X="118.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RenderTextureCreationFlags" Collapsed="true">
+    <Position X="111.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RenderTextureReadWrite" Collapsed="true">
+    <Position X="116.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RenderTextureMemoryless" Collapsed="true">
+    <Position X="115" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightmapsMode" Collapsed="true">
+    <Position X="109.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.MaterialGlobalIlluminationFlags" Collapsed="true">
+    <Position X="106.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CustomRenderTextureInitializationSource" Collapsed="true">
+    <Position X="108" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CustomRenderTextureUpdateMode" Collapsed="true">
+    <Position X="109.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CustomRenderTextureUpdateZoneSpace" Collapsed="true">
+    <Position X="111.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.MotionVectorGenerationMode" Collapsed="true">
+    <Position X="113.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LineTextureMode" Collapsed="true">
+    <Position X="123.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LineAlignment" Collapsed="true">
+    <Position X="122" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LightmappingMode" Collapsed="true">
+    <Position X="108" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LODFadeMode" Collapsed="true">
+    <Position X="127.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FullScreenMovieControlMode" Collapsed="true">
+    <Position X="120.25" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FullScreenMovieScalingMode" Collapsed="true">
+    <Position X="122" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AndroidActivityIndicatorStyle" Collapsed="true">
+    <Position X="106.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CursorMode" Collapsed="true">
+    <Position X="106.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CursorLockMode" Collapsed="true">
+    <Position X="104.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.KeyCode" Collapsed="true">
+    <Position X="130.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneScreenOrientation" Collapsed="true">
+    <Position X="122" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneNetworkReachability" Collapsed="true">
+    <Position X="118.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneGeneration" Collapsed="true">
+    <Position X="111.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneTouchPhase" Collapsed="true">
+    <Position X="123.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneMovieControlMode" Collapsed="true">
+    <Position X="115" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneMovieScalingMode" Collapsed="true">
+    <Position X="116.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneKeyboardType" Collapsed="true">
+    <Position X="113.25" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iPhoneOrientation" Collapsed="true">
+    <Position X="120.25" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.iOSActivityIndicatorStyle" Collapsed="true">
+    <Position X="109.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CalendarIdentifier" Collapsed="true">
+    <Position X="129" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CalendarUnit" Collapsed="true">
+    <Position X="130.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RemoteNotificationType" Collapsed="true">
+    <Position X="106.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.GradientMode" Collapsed="true">
+    <Position X="123.75" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RPCMode" Collapsed="true">
+    <Position X="130.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ConnectionTesterStatus" Collapsed="true">
+    <Position X="129" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NetworkConnectionError" Collapsed="true">
+    <Position X="115" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NetworkDisconnection" Collapsed="true">
+    <Position X="116.75" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.MasterServerEvent" Collapsed="true">
+    <Position X="104.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NetworkStateSynchronization" Collapsed="true">
+    <Position X="123.75" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NetworkPeerType" Collapsed="true">
+    <Position X="120.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.NetworkLogLevel" Collapsed="true">
+    <Position X="118.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RuntimeInitializeLoadType" Collapsed="true">
+    <Position X="104.5" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.HideFlags" Collapsed="true">
+    <Position X="127.25" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SnapAxis" Collapsed="true">
+    <Position X="123.75" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.BatteryStatus" Collapsed="true">
+    <Position X="123.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.OperatingSystemFamily" Collapsed="true">
+    <Position X="127.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.DeviceType" Collapsed="true">
+    <Position X="120.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TouchScreenKeyboardType" Collapsed="true">
+    <Position X="109.75" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.DrivenTransformProperties" Collapsed="true">
+    <Position X="122" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpriteDrawMode" Collapsed="true">
+    <Position X="129" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpriteTileMode" Collapsed="true">
+    <Position X="111.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpriteMaskInteraction" Collapsed="true">
+    <Position X="130.75" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpriteMeshType" Collapsed="true">
+    <Position X="104.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpriteAlignment" Collapsed="true">
+    <Position X="127.25" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpritePackingMode" Collapsed="true">
+    <Position X="106.25" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpritePackingRotation" Collapsed="true">
+    <Position X="108" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.SpriteSortPoint" Collapsed="true">
+    <Position X="109.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.EventType" Collapsed="true">
+    <Position X="130.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.EventModifiers" Collapsed="true">
+    <Position X="129" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.PointerType" Collapsed="true">
+    <Position X="115" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ScaleMode" Collapsed="true">
+    <Position X="108" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FocusType" Collapsed="true">
+    <Position X="109.75" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ImagePosition" Collapsed="true">
+    <Position X="106.25" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TextClipping" Collapsed="true">
+    <Position X="129" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TouchPhase" Collapsed="true">
+    <Position X="108" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.IMECompositionMode" Collapsed="true">
+    <Position X="108" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TouchType" Collapsed="true">
+    <Position X="111.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.DeviceOrientation" Collapsed="true">
+    <Position X="118.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.LocationServiceStatus" Collapsed="true">
+    <Position X="125.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemEmissionType" Collapsed="true">
+    <Position X="120.25" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemRenderMode" Collapsed="true">
+    <Position X="108" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemSortMode" Collapsed="true">
+    <Position X="122" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCollisionQuality" Collapsed="true">
+    <Position X="109.75" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemRenderSpace" Collapsed="true">
+    <Position X="109.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCurveMode" Collapsed="true">
+    <Position X="115" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemGradientMode" Collapsed="true">
+    <Position X="127.25" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemShapeType" Collapsed="true">
+    <Position X="118.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemMeshShapeType" Collapsed="true">
+    <Position X="130.75" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemShapeTextureChannel" Collapsed="true">
+    <Position X="116.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemAnimationMode" Collapsed="true">
+    <Position X="129" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemAnimationTimeMode" Collapsed="true">
+    <Position X="104.5" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemAnimationType" Collapsed="true">
+    <Position X="106.25" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemAnimationRowMode" Collapsed="true">
+    <Position X="130.75" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCollisionType" Collapsed="true">
+    <Position X="111.5" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCollisionMode" Collapsed="true">
+    <Position X="108" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemOverlapAction" Collapsed="true">
+    <Position X="106.25" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemSimulationSpace" Collapsed="true">
+    <Position X="120.25" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemStopBehavior" Collapsed="true">
+    <Position X="125.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemScalingMode" Collapsed="true">
+    <Position X="113.25" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemStopAction" Collapsed="true">
+    <Position X="123.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCullingMode" Collapsed="true">
+    <Position X="113.25" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemEmitterVelocityMode" Collapsed="true">
+    <Position X="122" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemInheritVelocityMode" Collapsed="true">
+    <Position X="129" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemTriggerEventType" Collapsed="true">
+    <Position X="106.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemVertexStream" Collapsed="true">
+    <Position X="108" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCustomData" Collapsed="true">
+    <Position X="116.75" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemCustomDataMode" Collapsed="true">
+    <Position X="118.5" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemNoiseQuality" Collapsed="true">
+    <Position X="104.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemSubEmitterType" Collapsed="true">
+    <Position X="129" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemSubEmitterProperties" Collapsed="true">
+    <Position X="127.25" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemTrailMode" Collapsed="true">
+    <Position X="130.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemTrailTextureMode" Collapsed="true">
+    <Position X="104.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemShapeMultiModeValue" Collapsed="true">
+    <Position X="115" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemRingBufferMode" Collapsed="true">
+    <Position X="111.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemGameObjectFilter" Collapsed="true">
+    <Position X="125.5" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemForceFieldShape" Collapsed="true">
+    <Position X="123.75" Y="28" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ParticleSystemVertexStreams" Collapsed="true">
+    <Position X="109.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RigidbodyConstraints" Collapsed="true">
+    <Position X="118.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ForceMode" Collapsed="true">
+    <Position X="115" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.JointDriveMode" Collapsed="true">
+    <Position X="125.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.JointProjectionMode" Collapsed="true">
+    <Position X="129" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.MeshColliderCookingOptions" Collapsed="true">
+    <Position X="108" Y="27.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RigidbodyInterpolation" Collapsed="true">
+    <Position X="122" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.PhysicMaterialCombine" Collapsed="true">
+    <Position X="111.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CollisionFlags" Collapsed="true">
+    <Position X="115" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.QueryTriggerInteraction" Collapsed="true">
+    <Position X="129" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CollisionDetectionMode" Collapsed="true">
+    <Position X="111.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ConfigurableJointMotion" Collapsed="true">
+    <Position X="127.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RotationDriveMode" Collapsed="true">
+    <Position X="129" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CapsuleDirection2D" Collapsed="true">
+    <Position X="108" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RigidbodyConstraints2D" Collapsed="true">
+    <Position X="120.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RigidbodyInterpolation2D" Collapsed="true">
+    <Position X="123.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RigidbodySleepMode2D" Collapsed="true">
+    <Position X="125.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.CollisionDetectionMode2D" Collapsed="true">
+    <Position X="113.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RigidbodyType2D" Collapsed="true">
+    <Position X="127.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ForceMode2D" Collapsed="true">
+    <Position X="116.75" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.JointLimitState2D" Collapsed="true">
+    <Position X="127.25" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.EffectorSelection2D" Collapsed="true">
+    <Position X="127.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.EffectorForceMode2D" Collapsed="true">
+    <Position X="125.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ProceduralProcessorUsage" Collapsed="true">
+    <Position X="123.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ProceduralCacheSize" Collapsed="true">
+    <Position X="118.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ProceduralLoadingBehavior" Collapsed="true">
+    <Position X="120.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ProceduralPropertyType" Collapsed="true">
+    <Position X="125.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.ProceduralOutputType" Collapsed="true">
+    <Position X="122" Y="29.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TerrainChangedFlags" Collapsed="true">
+    <Position X="118.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TerrainRenderFlags" Collapsed="true">
+    <Position X="122" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.DetailRenderMode" Collapsed="true">
+    <Position X="116.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TerrainHeightmapSyncControl" Collapsed="true">
+    <Position X="120.25" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.FontStyle" Collapsed="true">
+    <Position X="113.25" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TextAlignment" Collapsed="true">
+    <Position X="125.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.TextAnchor" Collapsed="true">
+    <Position X="127.25" Y="31.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.HorizontalWrapMode" Collapsed="true">
+    <Position X="129" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.VerticalWrapMode" Collapsed="true">
+    <Position X="116.75" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.RenderMode" Collapsed="true">
+    <Position X="109.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.AdditionalCanvasShaderChannels" Collapsed="true">
+    <Position X="104.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="UnityEngine.WindZoneMode" Collapsed="true">
+    <Position X="125.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="UnityEngine.AndroidJavaRunnable" Collapsed="true">
+    <Position X="104.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
