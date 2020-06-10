@@ -7,7 +7,7 @@ using UnityEngine;
     class BackgroundScroll : MonoBehaviour
 {
     private Sprite sprite;
-    private Camera camera;
+    private new Camera camera;
 
     public void SetScroll()
     {

@@ -10,5 +10,10 @@ class Asteroid : ICanPath
     private int speed;
     private int sprite;
     private int health;
+
+    public void MoveAlongPath()
+    {
+        
+    }
 }
 

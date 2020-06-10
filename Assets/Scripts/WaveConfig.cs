@@ -8,7 +8,7 @@ using UnityEngine;
 {
     private GameObject enemyObjects;
     private int numberOfEnemies;
-    private Transforms[] wavePath;
+    private Transform[] wavePath;
     private int waveSpawnSpeed;
 }
 

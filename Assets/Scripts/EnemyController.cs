@@ -11,7 +11,12 @@ class EnemyController : MonoBehaviour, ICanPath
 
     public void OnDeath()
     {
-        throw new System.NotImplementedException();
+        
+    }
+
+    public void MoveAlongPath()
+    {
+
     }
 }
 
