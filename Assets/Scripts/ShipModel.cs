@@ -6,6 +6,7 @@ using UnityEngine;
 class ShipModel : MonoBehaviour
 {
     private new Transform transform;
+    [SerializeField]
     private int lives;
     private Gun gun;
     private bool isFiring;
@@ -15,7 +16,7 @@ class ShipModel : MonoBehaviour
 
     public int Lives
     {
-        get => default;
+        get => lives;
         set
         {
         }
