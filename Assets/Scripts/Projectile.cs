@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(BoxCollider2D))]
-class Projectile : Asteroid
+class Projectile 
 {
 
 
