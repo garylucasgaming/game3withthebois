@@ -11,7 +11,7 @@ class ShipModel : MonoBehaviour
     private Gun gun;
     private bool isFiring;
     private bool isMoving;
-    private int speed;
+    public int speed;
     private bool isDead;
 
     public int Lives
