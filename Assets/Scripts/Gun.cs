@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(menuName =  "Gun")]
-    public class Gun : ScriptableObject
+[CreateAssetMenu(menuName = "Gun")]
+public class Gun : ScriptableObject
 {
-    public Sprite projectileObject;
-    public int sound;
+    public GameObject projectileObject;
+    public AudioClip sound;
     public int numberOfSpawnPoints;
-    public int rateOfFire;
+    public float rateOfFire;
 }
-
