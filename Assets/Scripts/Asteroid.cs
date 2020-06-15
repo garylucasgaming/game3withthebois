@@ -9,7 +9,7 @@ class Asteroid : MonoBehaviour, ICanPath
     [SerializeField]private int damage;
     [SerializeField]private int speed;
     private int sprite;
-    [SerializeField] private int health;
+    [SerializeField] public int lives;
     private int waypointIndex = 0;
     [SerializeField] public List<Transform> path;
 

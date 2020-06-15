@@ -21,6 +21,6 @@ public class JoyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 
     private void Update()
     {
-        print(Pressed);
+        
     }
 }

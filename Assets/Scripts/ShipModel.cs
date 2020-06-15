@@ -8,11 +8,11 @@ class ShipModel : MonoBehaviour
     private new Transform transform;
     [SerializeField]
     private int lives;
-    private Gun gun;
-    private bool isFiring;
-    private bool isMoving;
+    public Gun gun;
+    public bool isFiring;
+    public bool isMoving;
     public int speed;
-    private bool isDead;
+    public bool isDead;
 
     public int Lives
     {
