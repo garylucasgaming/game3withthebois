@@ -17,6 +17,7 @@ using UnityEngine;
         get => score; 
         set
         {
+            score = value;
         }
     }
 

@@ -5,8 +5,7 @@ using UnityEngine;
 
 
 class PlayerController : MonoBehaviour
-{
-    private ShipModel shipModel;
+{    
     //Computes worldspace positional clamps for the rigid body based
     //on a camera 
     //and allowed min & max screen positions 
@@ -70,8 +69,12 @@ class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        UpdateInput();
-        HandleShooting();
+        if (!_shipModel.isDead)
+        {
+            UpdateInput();
+            HandleShooting();
+        }
+        if (_shipModel.isDead) OnDeath();
     }
 
     private void FixedUpdate()
@@ -107,11 +110,11 @@ class PlayerController : MonoBehaviour
 
     private void HandleShooting()
     {
-        if (_fireInput > 0) _shipModel.FireGun();
+        if (_fireInput > 0) _shipModel.FireGun(Vector2.up);
     }
 
     public void OnDeath()
     {
-
+        _shipView.OnDeath();
     }
 }

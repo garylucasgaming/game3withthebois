@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 class Asteroid : MonoBehaviour, ICanPath
 {
     [SerializeField]private int damage;
@@ -13,6 +11,8 @@ class Asteroid : MonoBehaviour, ICanPath
     private int waypointIndex = 0;
     [SerializeField] public List<Transform> path;
 
+    public int killPoints = 1;
+
     private void Start()
     {
         transform.position  = new Vector3(path[waypointIndex].position.x, path[waypointIndex].position.y, 0);
@@ -21,7 +21,8 @@ class Asteroid : MonoBehaviour, ICanPath
     private void Update()
     {
        MoveAlongPath();
-        transform.Rotate(0, 0, 180 * Time.deltaTime);
+       transform.Rotate(0, 0, 180 * Time.deltaTime);
+        if (lives <= 0) OnDeath();
     }
 
     public void MoveAlongPath()

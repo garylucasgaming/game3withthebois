@@ -47,8 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 10
+  speed: 6
   sprite: {fileID: 21300000, guid: 9197422a079de6249a64e48b52b0208c, type: 3}
+  shootDirection: {x: 0, y: 0}
 --- !u!212 &5550236986410257463
 SpriteRenderer:
   m_ObjectHideFlags: 0

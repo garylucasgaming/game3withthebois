@@ -14,18 +14,14 @@ class ShipModel : MonoBehaviour
     public bool isDead = false;
 
     public Gun gun;
-    private Projectile _gunProjectile;
     public bool isFiring = false;
 
     public float speed = 5;
     public bool isMoving = false;
 
-    private void Start()
-    {
-        
-    }
+    public int killPoints = 1;
 
-    private IEnumerator FireProjectile()
+    private IEnumerator FireProjectile(Vector2 newShootDirection)
     {
         isFiring = true;
         foreach (Transform spawnPoint in activeProjectileSpawnPoints)
@@ -33,7 +29,9 @@ class ShipModel : MonoBehaviour
             GameObject projectile = GameObject.Instantiate(
                 gun.projectileObject,
                 spawnPoint.position,
-                Quaternion.identity, transform);
+                Quaternion.identity);
+            projectile.tag = this.tag;
+            projectile.GetComponent<Projectile>().shootDirection = newShootDirection;
         }
         yield return new WaitForSeconds(gun.rateOfFire);
         isFiring = false;
@@ -44,6 +42,7 @@ class ShipModel : MonoBehaviour
         set
         {
             _lives = Mathf.Clamp(value, 0, maxLives);
+            if (_lives == 0) isDead = true;
         }
     }
 
@@ -54,9 +53,10 @@ class ShipModel : MonoBehaviour
         transform.position += (Vector3)(inputDirection * speed * Time.fixedDeltaTime);
     }
 
-    public void FireGun()
+    public void FireGun(Vector2 newShootDirection)
     {
-        if (!isFiring) StartCoroutine(FireProjectile());
+        print("firing gun");
+        if (!isFiring) StartCoroutine(FireProjectile(newShootDirection));
     }
 
     public void SetProjectileSpawnPoints(int numberOfSpawnPoints)
@@ -88,8 +88,12 @@ class ShipModel : MonoBehaviour
     public void UpdateGun(Gun gun)
     {
         gun = gun;
-        _gunProjectile = gun.projectileObject.GetComponent<Projectile>();
         SetProjectileSpawnPoints(gun.numberOfSpawnPoints);
+    }
+
+    public void OnDeath(float delay)
+    {
+        Destroy(gameObject, delay);
     }
 
 #if (UNITY_EDITOR)

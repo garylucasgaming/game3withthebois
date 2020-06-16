@@ -11,41 +11,46 @@ class EnemyController : MonoBehaviour, ICanPath
     public List<Transform> path;
     private int waypointIndex = 0;
     private ShipView shipView;
+    public Gun initialGun;
 
     private void Awake()
     {
-        shipModel = gameObject.GetComponent<ShipModel>();
         shipView = gameObject.GetComponent<ShipView>();
+        shipModel = gameObject.GetComponent<ShipModel>();
+        shipModel.projectileSpawnPoints = new Transform[]
+        {
+            transform.GetChild(0),
+            transform.GetChild(1),
+            transform.GetChild(2)
+        };
     }
 
-    private IEnumerator Start()
+    private void Start()
     {
-        do
-        {
-            yield return StartCoroutine(EnemyFireCoroutine(shipModel.gun.rateOfFire));
-        }
-        while (!shipModel.isDead);
+        shipModel.UpdateGun(initialGun);
     }
 
     private void Update()
     {
-        MoveAlongPath();
-     
+        if (!shipModel.isDead)
+        {
+            MoveAlongPath();
+            FireGun();
+        }
+        if (shipModel.isDead) OnDeath();
     }
 
-    public void GunFire()
+    public void FireGun()
     {
         shipView.OnFire();
-        //shipModel.GunFire();
-        Debug.Log(message: "isShooting", context: gameObject);
-       
+        shipModel.FireGun(Vector2.down);
     }
 
 
     private IEnumerator EnemyFireCoroutine(float waitTime)
     {
 
-        GunFire();
+        FireGun();
 
         yield return new WaitForSeconds(waitTime);
 
@@ -55,10 +60,7 @@ class EnemyController : MonoBehaviour, ICanPath
 
     public void OnDeath()
     {
-        shipModel.isDead = true;
         shipView.OnDeath();
-      
-
     }
 
     public void MoveAlongPath()
@@ -78,7 +80,7 @@ class EnemyController : MonoBehaviour, ICanPath
         }
         else
         {
-            if (!shipModel.isDead) { print("on death"); shipModel.isDead = true; OnDeath();  }
+            Destroy(gameObject);
            
            
         }
