@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbeeab30741346a4a84e36517a8338e1, type: 3}
-  m_Name: U
+  m_Name: U. Blaster
   m_EditorClassIdentifier: 
   projectileObject: {fileID: 0}
   sound: {fileID: 8300000, guid: d772c1b9a6f00e54d975562ca9a729fe, type: 3}
