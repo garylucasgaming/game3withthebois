@@ -4,6 +4,7 @@ using UnityEngine;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [CreateAssetMenu(menuName = "Gun")]
 public class Gun : ScriptableObject
 {
@@ -16,6 +17,11 @@ public class Gun : ScriptableObject
 [CreateAssetMenu(menuName =  "Gun")]
     class Gun : ScriptableObject
 {
+=======
+[CreateAssetMenu(menuName =  "Gun")]
+    class Gun : ScriptableObject
+{
+>>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
     private Sprite projectileObject;
     private int sound;
     private int numberOfSpawnPoints;
