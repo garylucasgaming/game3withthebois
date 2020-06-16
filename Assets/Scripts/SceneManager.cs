@@ -8,16 +8,17 @@ using UnityEngine.SceneManagement;
 
     class SceneManager : MonoBehaviour
 {
-    private string[] scenes;
+    private string[] _scenes = new string[] { "MainMenu", "Game","EndScreen" };
+   
 
     public void LoadScene(String sceneName)
     {
-        
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName, LoadSceneMode.Single);   
     }
 
     public void ApplicationClose()
     {
-        throw new System.NotImplementedException();
+        Application.Quit();
     }
 }
 

@@ -6,6 +6,11 @@ using UnityEngine;
 
 class GunPickup : PickUpItem
 {
-    private Gun gun;
+    public Gun gun;
+
+    public override void OnPickup(ShipModel playerShip)
+    {
+     //   playerShip.UpdateGun(gun);
+    }
 }
 
