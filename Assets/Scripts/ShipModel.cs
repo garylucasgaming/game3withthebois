@@ -1,46 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
-[System.Serializable]
-class ShipModel
+class ShipModel : MonoBehaviour
 {
-    public Transform _transform;
-    private Transform[] _projectileSpawnPoints;
+    public new Transform transform;
+    public Transform[] projectileSpawnPoints;
     public Transform[] activeProjectileSpawnPoints;
 
     [SerializeField] private int _lives = 3;
-    public int _maxLives = 5;
-    public bool _isDead = false;
+    public int maxLives = 5;
+    public bool isDead = false;
 
-    [SerializeField] private Gun _gun;
-    public bool _isFiring = false;
+    public Gun gun;
+    private Projectile _gunProjectile;
+    public bool isFiring = false;
 
     public float speed = 5;
-    public bool _isMoving = false;
+    public bool isMoving = false;
 
+    private void Start()
+    {
+        
+    }
+
+    private IEnumerator FireProjectile()
+    {
+        isFiring = true;
+        foreach (Transform spawnPoint in activeProjectileSpawnPoints)
+        {
+            GameObject projectile = GameObject.Instantiate(
+                gun.projectileObject,
+                spawnPoint.position,
+                Quaternion.identity, transform);
+        }
+        yield return new WaitForSeconds(gun.rateOfFire);
+        isFiring = false;
+    }
     public int Lives
     {
         get => _lives;
         set
         {
-            _lives = Mathf.Clamp(value, 0, _maxLives);
+            _lives = Mathf.Clamp(value, 0, maxLives);
         }
     }
 
     public void Move(Vector2 inputDirection)
     {
-        _isMoving = (inputDirection.sqrMagnitude > 0) ? true : false;
+        isMoving = (inputDirection.sqrMagnitude > 0) ? true : false;
         inputDirection = inputDirection.normalized;
-        _transform.position += (Vector3)(inputDirection * speed * Time.fixedDeltaTime);
+        transform.position += (Vector3)(inputDirection * speed * Time.fixedDeltaTime);
     }
 
     public void FireGun()
     {
-        foreach(GameObject spawnPoint in activeProjectileSpawnPoints)
-        {
-            GameObject projectile = GameObject.Instantiate(_gun.projectileObject);
-        }
+        if (!isFiring) StartCoroutine(FireProjectile());
     }
 
     public void SetProjectileSpawnPoints(int numberOfSpawnPoints)
@@ -49,21 +65,21 @@ class ShipModel
         {
             default:
             case 1:
-                _activeProjectileSpawnPoints = new Transform[] {
-                    _projectileSpawnPoints[0]
+                activeProjectileSpawnPoints = new Transform[] {
+                    projectileSpawnPoints[0]
                 };
                 break;
             case 2:
-                _activeProjectileSpawnPoints = new Transform[] {
-                    _projectileSpawnPoints[1],
-                    _projectileSpawnPoints[2]
+                activeProjectileSpawnPoints = new Transform[] {
+                    projectileSpawnPoints[1],
+                    projectileSpawnPoints[2]
                 };
                 break;
             case 3:
-                _activeProjectileSpawnPoints = new Transform[] {
-                    _projectileSpawnPoints[0],
-                    _projectileSpawnPoints[1],
-                    _projectileSpawnPoints[2]
+                activeProjectileSpawnPoints = new Transform[] {
+                    projectileSpawnPoints[0],
+                    projectileSpawnPoints[1],
+                    projectileSpawnPoints[2]
                 };
                 break;
         }
@@ -71,8 +87,9 @@ class ShipModel
 
     public void UpdateGun(Gun gun)
     {
-        _gun = gun;
-        SetProjectileSpawnPoints(_gun.numberOfSpawnPoints);
+        gun = gun;
+        _gunProjectile = gun.projectileObject.GetComponent<Projectile>();
+        SetProjectileSpawnPoints(gun.numberOfSpawnPoints);
     }
 
 #if (UNITY_EDITOR)

@@ -42,14 +42,14 @@ class PlayerController : MonoBehaviour
 
     [SerializeField] private ShipModel _shipModel;
     [SerializeField] private ShipView _shipView;
+    public Gun initialGun;
 
     private Vector2 _directionalInput;
     private int _fireInput;
 
     private void Awake()
     {
-        throw new System.NotImplementedException();
-        _transform = _shipModel._transform = GetComponent<Transform>();
+        _transform = _shipModel.transform = GetComponent<Transform>();
         _collider = GetComponent<Collider2D>();
 
         _positionClamps = new PositionClamps
@@ -58,6 +58,14 @@ class PlayerController : MonoBehaviour
              xMax: 1,
              yMin: _minVerticalScreenPosition,
              yMax: _maxVerticalScreenPosition);
+        _shipModel.projectileSpawnPoints = new Transform[]
+        {
+            transform.GetChild(0),
+            transform.GetChild(1),
+            transform.GetChild(2)
+        };
+
+        _shipModel.UpdateGun(initialGun);
     }
 
     private void Update()
