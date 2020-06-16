@@ -4,11 +4,12 @@ using UnityEngine;
 
 
 
-class PickUpItem :  MonoBehaviour
+    class BackgroundScroll : MonoBehaviour
 {
     private Sprite sprite;
+    private new Camera camera;
 
-    public void OnPickup()
+    public void SetScroll()
     {
         throw new System.NotImplementedException();
     }
