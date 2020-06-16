@@ -4,11 +4,11 @@ using UnityEngine;
 
 
 [CreateAssetMenu(menuName =  "Gun")]
-class Gun : ScriptableObject
+    class Gun : ScriptableObject
 {
-    public Sprite projectileObject;
-    public int sound;
-    public int numberOfSpawnPoints;
-    public int rateOfFire;
+    private Sprite projectileObject;
+    private int sound;
+    private int numberOfSpawnPoints;
+    private int rateOfFire;
 }
 
