@@ -6,7 +6,6 @@ using UnityEngine;
 class ShipModel : MonoBehaviour
 {
     private new Transform transform;
-<<<<<<< HEAD
     [SerializeField]
     private int lives;
     public Gun gun;
@@ -18,18 +17,6 @@ class ShipModel : MonoBehaviour
     public int Lives
     {
         get => lives;
-=======
-    private int lives;
-    private Gun gun;
-    private bool isFiring;
-    private bool isMoving;
-    private int speed;
-    private bool isDead;
-
-    public int Lives
-    {
-        get => default;
->>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
         set
         {
         }
