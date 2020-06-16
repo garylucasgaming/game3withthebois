@@ -2,84 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-class ShipModel
+[RequireComponent(typeof(BoxCollider2D))]
+class ShipModel : MonoBehaviour
 {
-    public Transform _transform;
-    private Transform[] _projectileSpawnPoints;
-    public Transform[] activeProjectileSpawnPoints;
-
-    [SerializeField] private int _lives = 3;
-    public int _maxLives = 5;
-    public bool _isDead = false;
-
-    [SerializeField] private Gun _gun;
-    public bool _isFiring = false;
-
-    public float speed = 5;
-    public bool _isMoving = false;
+    private new Transform transform;
+    [SerializeField]
+    private int lives;
+    public Gun gun;
+    public bool isFiring;
+    public bool isMoving;
+    public int speed;
+    public bool isDead;
 
     public int Lives
     {
-        get => _lives;
+        get => lives;
         set
         {
-            _lives = Mathf.Clamp(value, 0, _maxLives);
         }
     }
 
-    public void Move(Vector2 inputDirection)
+    public void Move(Vector2  inputDirection)
     {
-        _isMoving = (inputDirection.sqrMagnitude > 0) ? true : false;
-        inputDirection = inputDirection.normalized;
-        _transform.position += (Vector3)(inputDirection * speed * Time.fixedDeltaTime);
+        
     }
 
-    public void FireGun()
+    public void GunFire()
     {
-        foreach(GameObject spawnPoint in activeProjectileSpawnPoints)
-        {
-            GameObject projectile = GameObject.Instantiate(_gun.projectileObject);
-        }
+        throw new System.NotImplementedException();
     }
 
-    public void SetProjectileSpawnPoints(int numberOfSpawnPoints)
+    public void GenerateProjectileSpawnPoints()
     {
-        switch (numberOfSpawnPoints)
-        {
-            default:
-            case 1:
-                _activeProjectileSpawnPoints = new Transform[] {
-                    _projectileSpawnPoints[0]
-                };
-                break;
-            case 2:
-                _activeProjectileSpawnPoints = new Transform[] {
-                    _projectileSpawnPoints[1],
-                    _projectileSpawnPoints[2]
-                };
-                break;
-            case 3:
-                _activeProjectileSpawnPoints = new Transform[] {
-                    _projectileSpawnPoints[0],
-                    _projectileSpawnPoints[1],
-                    _projectileSpawnPoints[2]
-                };
-                break;
-        }
+        throw new System.NotImplementedException();
     }
 
-    public void UpdateGun(Gun gun)
+    public void UpdateGun()
     {
-        _gun = gun;
-        SetProjectileSpawnPoints(_gun.numberOfSpawnPoints);
+        throw new System.NotImplementedException();
     }
-
-#if (UNITY_EDITOR)
-    private void OnValidate()
-    {
-        Lives = _lives;
-    }
-#endif
 }
 
