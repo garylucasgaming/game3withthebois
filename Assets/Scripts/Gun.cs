@@ -5,6 +5,7 @@ using UnityEngine;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [CreateAssetMenu(menuName = "Gun")]
 public class Gun : ScriptableObject
 {
@@ -17,6 +18,11 @@ public class Gun : ScriptableObject
 [CreateAssetMenu(menuName =  "Gun")]
     class Gun : ScriptableObject
 {
+=======
+[CreateAssetMenu(menuName =  "Gun")]
+    class Gun : ScriptableObject
+{
+>>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
 =======
 [CreateAssetMenu(menuName =  "Gun")]
     class Gun : ScriptableObject

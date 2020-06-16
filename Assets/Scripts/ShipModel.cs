@@ -8,6 +8,7 @@ class ShipModel : MonoBehaviour
     private new Transform transform;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [SerializeField]
     private int lives;
     public Gun gun;
@@ -22,6 +23,8 @@ class ShipModel : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
+=======
+>>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
     private int lives;
     private Gun gun;
     private bool isFiring;
@@ -33,6 +36,9 @@ class ShipModel : MonoBehaviour
     {
         get => default;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
+=======
 >>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
 =======
 >>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
@@ -43,6 +49,7 @@ class ShipModel : MonoBehaviour
 
     public void Move(Vector2  inputDirection)
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
         
     }
@@ -51,11 +58,17 @@ class ShipModel : MonoBehaviour
     {
 =======
     {
+=======
+    {
+>>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
         
     }
 
     public void GunFire()
     {
+<<<<<<< HEAD
+>>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
+=======
 >>>>>>> parent of 3b37080... incomplete gun shooting, code for setting up gun
         throw new System.NotImplementedException();
     }
