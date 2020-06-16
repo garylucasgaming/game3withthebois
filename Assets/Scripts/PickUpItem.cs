@@ -6,11 +6,24 @@ using UnityEngine;
 
 class PickUpItem :  MonoBehaviour
 {
-    private Sprite sprite;
 
-    public void OnPickup()
+    public virtual void OnPickup(ShipModel playerShip)
     {
-        throw new System.NotImplementedException();
+
     }
+
+    private void OnTriggerEnter2D(Collider2D ship)
+    {
+        if(ship.tag == "Player")
+        {
+            OnPickup(ship.GetComponent<ShipModel>());
+        }
+    }
+
+    private void Update()
+    {
+        transform.Translate(Vector2.down * 0.8f * Time.deltaTime);
+    }
+
 }
 
