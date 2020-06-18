@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 
 
-[RequireComponent(typeof(SpriteRenderer), typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
 class ShipView : MonoBehaviour
 {
     [SerializeField] private Sprite shipSprite;
@@ -20,29 +20,24 @@ class ShipView : MonoBehaviour
     public AudioMixer AM;
     public bool isPlaying = false;
    
-
-
-
     private void Awake()
     {
-
        // AM = Resources.Load("MainMixer") as AudioMixer;
         SR = gameObject.GetComponent<SpriteRenderer>();
         SetSprite(shipSprite);
         shipModel = gameObject.GetComponent<ShipModel>();
-        GunAudioSource = gameObject.AddComponent<AudioSource>();
-        DeathAudioSource = gameObject.AddComponent<AudioSource>();
     }
 
     private void Start()
     {
-        
+        GunAudioSource = gameObject.AddComponent<AudioSource>();
+        DeathAudioSource = gameObject.AddComponent<AudioSource>();
+
         GunAudioSource.outputAudioMixerGroup = AM.FindMatchingGroups("Guns")[0];
         GunAudioSource.clip = shipModel.gun.sound;
-        GunAudioSource.volume = .5f;
+        GunAudioSource.volume = .2f;
         GunAudioSource.playOnAwake = false;
 
-        
         DeathAudioSource.outputAudioMixerGroup = AM.FindMatchingGroups("Explosions")[0];
         DeathAudioSource.clip = deathSound;
         DeathAudioSource.volume = .10f;
@@ -71,17 +66,14 @@ class ShipView : MonoBehaviour
         SetSprite(deadSprite);
         DeathAudioSource.pitch = UnityEngine.Random.Range(.5f, 1.5f);
         DeathAudioSource.Play();
-        
+
 
         //var soundTest = new GameObject();
         //var newAudio = soundTest.AddComponent<AudioSource>();
         //newAudio.PlayOneShot(deathSound);
         //Destroy(soundTest, deathSound.length);
-
-
-        Destroy(gameObject, deathSound.length - 1f);
-        
-       
+        Destroy(GetComponent<TrailRenderer>());
+        shipModel.OnDeath(deathSound.length - 1f);
 
     }
 

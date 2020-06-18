@@ -16,4 +16,4 @@ MonoBehaviour:
     type: 3}
   sound: {fileID: 8300000, guid: d772c1b9a6f00e54d975562ca9a729fe, type: 3}
   numberOfSpawnPoints: 1
-  rateOfFire: 0.75
+  rateOfFire: 0.4

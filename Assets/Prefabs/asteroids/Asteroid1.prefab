@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 708053913005019224}
   m_Layer: 0
   m_Name: Asteroid1
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0
   speed: 1
-  health: 0
+  lives: 4
   path: []
 --- !u!60 &708053913005019224
 PolygonCollider2D:
